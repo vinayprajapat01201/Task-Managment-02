@@ -25,14 +25,33 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <form>
+
+                        <div class="mb-3">
+                            <label for="imageUrl" class="form-label">Image URL</label>
+                            <input type="url" class="form-control" id="imageUrl" placeholder="https://example.com/image.png" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="taskTitle" class="form-label">Task Title</label>
+                            <input type="text" class="form-control" id="taskTitle" placeholder="Learn Violin.." required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="tags" class="form-label">Task Type</label>
+                            <input type="text" class="form-control" id="tags" placeholder="Work..." />
+                        </div>
+                        <div class="mb-3">
+                            <label for="taskDesription" class="form-label">Task Description</label>
+                            <textarea class="form-control" id="taskDesription" placeholder="Describe Your Task..." rows="4" required></textarea>
+                        </div>
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-dark">Save changes</button>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-dark">Save changes</button>
-                </div>
+
+                </form>
             </div>
+
         </div>
+    </div>
     </div>
 
     <nav class="navbar navbar-expand-lg bg-light">
