@@ -5,6 +5,8 @@
 
 body {
     background-color: #ebf2ff !important;
+    padding-top: 6%;
+    overflow-x: hidden;
 }
 
 .add__new_button_mobile_only {
@@ -15,6 +17,54 @@ body {
     background: white;
     z-index: 3;
     width: 100%;
+}
+
+.container {
+    padding: 1% 0% 4%;
+}
+
+#responses {
+    text-align: center !important;
+    padding: 10px !important;
+}
+
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+    z-index: 1;
+    padding: 0.5% 5% 0.5% 5% !important;
+}
+
+.active {
+    font-weight: 600 !important;
+    font-size: 21px !important;
+}
+
+.search {
+    padding: 4px 8px;
+    border: none;
+    background-color: transparent;
+    margin-right: 20px !important;
+}
+
+.search:hover {
+    transition-duration: 0.4s;
+    transform: scale(1.3);
+    /* transform: rotate(-30deg); */
+}
+
+.card {
+    border-radius: 12px !important;
+    --bs-card-cap-bg: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px !important;
+}
+
+.card:hover {
+    box-shadow: none !important;
+    transition-duration: 0.4s;
 }
 
 @media(min-width:768px) {
