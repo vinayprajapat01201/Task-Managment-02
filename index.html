@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -49,7 +50,7 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="input-group flex-nowrap rounded">
-                    <input type="search" class="form-control" placeholder="Search Task..." aria-lable="Search Task" aria-describedy="addon-wrapping" />
+                    <input type="search" class="form-control" placeholder="Search Task..." aria-lable="Search Task" aria-describedy="addon-wrapping" oninput="searchTask.apply(this,arguments)" />
                     <span class="input-group-text" id="addon-wrapping">
                         <i class="fas fa-search"></i>
                     </span>
@@ -57,6 +58,7 @@
             </div>
         </div>
     </section>
+
 
 
     <div class="modal fade" id="addNewModal" tabindex="-1" aria-labelledby="addNewModalLabel" aria-hidden="true">
